@@ -5,9 +5,11 @@ import HeaderText from "../components/HeaderText";
 
 const Blog = () => {
   const navigate = useNavigate();
-  const tambahHandler = () => {
-    navigate("/properti");
-  };
+  // Remove or use the tambahHandler function
+  // const tambahHandler = () => {
+  //   navigate("/properti");
+  // };
+  
   return (
     <div className='container'>
       <ButtonHeader className='ButtonHeader'>
